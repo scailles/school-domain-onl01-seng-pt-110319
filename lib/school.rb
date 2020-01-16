@@ -26,6 +26,6 @@ def grade(grade)
 end
 
 def sort
-  students
+  @roster.each do ()
 
 end
