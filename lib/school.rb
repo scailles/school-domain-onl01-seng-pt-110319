@@ -14,14 +14,15 @@ class School
     @roster
   end
   
-  def add_student(student, grade)
-    if @roster[grade].length?==0
-      @roster[grade]<< student
-    else
-    @roster[grade]=[student]
-  end
-  end
-    
+ def add_student(name, grade)
+if @roster[grade] != nil
+@roster[grade] << name
+else
+@roster[grade] = [name]
+end
+
+end
+
 
 
 end
