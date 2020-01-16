@@ -18,7 +18,7 @@ class School
     if @roster[grade].length?=0
       @roster[grade]<< student
     else
-    @roster[grade] << student
+    @roster[grade]=[student]
   end
   end
     
