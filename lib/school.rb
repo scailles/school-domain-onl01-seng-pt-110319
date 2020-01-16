@@ -21,6 +21,6 @@ class School
   end
 end
 
-def roster=
+def roster
 
 end
